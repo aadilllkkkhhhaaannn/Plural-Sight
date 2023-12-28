@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%px;
+    background-color: darkorange;
+    display: flex;
+    }
+.form-sec{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+.form-sec img{
+    width: 70%;
+    height: 10%;
+    margin-bottom: 40px;
+}
+label{
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: rgb(245, 244, 244);
+}
+input {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    color: aquamarine;
+}
+.create-btn {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 28px;
+    background-color: rgb(241, 167, 92);
+    border: none;
+}
+.sec-button{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 28px;
+    background-color:darkgreen;
+    border: none;
+}
+a{
+margin-top: 20px;
+text-align: center;
+font-size: 20px;
+color:blueviolet
+}
+p{
+    color: rgb(247, 235, 235);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-sec button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(8, 92, 248);
+    margin-top: 18px;
+    font-size: 15px;
+    border: none;
+}
+.img-sec img{
+width: 80%;
+height:60%;
+margin-top: 150px;
+margin-left: 50px;
+}
+.img-sec{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(68, 68, 67);
+}
+
+
+.try-btn{
+    margin-left: 600px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(54, 51, 224);
+    border: none;
+}
